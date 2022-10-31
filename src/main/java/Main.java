@@ -89,11 +89,11 @@ public class Main extends Application {
         bfsButton.setLayoutX(pane.getPrefWidth() - 200);
         bfsButton.setLayoutY(pane.getPrefHeight() / 2 - 40);
         bfsButton.setPrefWidth(150);
-        javafx.scene.control.Button dfsButton = new Button("Deap First Search");
+        javafx.scene.control.Button dfsButton = new Button("Depth First Search");
         dfsButton.setLayoutX(pane.getPrefWidth() - 200);
         dfsButton.setPrefWidth(150);
         dfsButton.setLayoutY(pane.getPrefHeight() / 2);
-        Button gdfsButton = new Button("Greedy Deep First Search");
+        Button gdfsButton = new Button("Greedy Depth First Search");
         gdfsButton.setLayoutX(pane.getPrefWidth() - 200);
         gdfsButton.setLayoutY(pane.getPrefHeight() / 2 + 40);
         gdfsButton.setPrefWidth(150);
